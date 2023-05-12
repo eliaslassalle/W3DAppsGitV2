@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title> javascriptSwapFunction</title>
+
+
+    <script type = "text/javascript">
+
+        var counter = 0;
+    function swap(selected){
+        document.getElementById('home').style.display = 'none';
+        document.getElementById('coke').style.display = 'none';
+        document.getElementById('sprite').style.display = 'none';
+        document.getElementById('pepper').style.display = 'none';
+
+        document.getElementById(selected).style.display = 'block';
+    }
+
+    function countUp(){
+
+        counter +=1;
+        document.getElementById('result').innerHTML = counter;
+    }
+
+    function changeLook(){
+        document.getElementById('theme').style.backgroundColor = '#770000'
+        document.getElementById('theme').style.fontFamily = 'arial,sans-serif'
+        document.getElementById('theme').style.color = 'white'
+    }
+
+
+    function changeColour(newColour){
+        var elem = document.getElementById("paral");
+        elem.style.color = newColour;
+    }
+
+    </script>
+
+</head>
+
+<body id = "theme">
+    <p> <a href = "javascript:swap('home')">Home</a> :
+        <a href = "javascript:swap('coke')">Coca Cola</a> :
+        <a href = "javascript:swap('sprite')">Sprite</a> :
+        <a href = "javascript:swap('pepper')">Dr Pepper</a> :
+    </p>
+
+    <div id = "home"><b>Home:</b> Welcome to my page, JavaSwap Thing</div>
+    <div id = "coke" style = "display:none;"> <b>Home:</b> This is coke</div>
+    <div id = "sprite" style = "display:none;"> <b>Home:</b> This is Sprite</div>
+    <div id = "pepper" style = "display:none;"> <b>Home:</b> This is Pepper
+    
+
+
+    <p>Click <a href='javascript:countUp()'>here</a> to count:
+        <div id = "result"></div>
+    </p>
+
+    <p><input type="button" value="Click me" onClick="changeLook()"/> to restyle the page</p>
+
+    <p id = "paral"> Some text goes here </p>
+    <button onClick = "changeColour('green');">green</button>
+    <button onClick = "changeColour('red');">red</button>
+    </div>
+
+</body>
+</html>
