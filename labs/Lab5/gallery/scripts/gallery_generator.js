@@ -28,8 +28,8 @@ $(document).ready(function() {
             }
 
             document.getElementById('gallery_coke').innerHTML = htmlCode;
-            //document.getElementById('gallery_sprite').innerHTML = htmlCode;
-            //document.getElementById('gallery_Pepper').innerHTML = htmlCode;
+            document.getElementById('gallery_sprite').innerHTML = htmlCode;
+            document.getElementById('gallery_Pepper').innerHTML = htmlCode;
         }
     }
 })

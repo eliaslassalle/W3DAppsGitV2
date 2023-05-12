@@ -13,6 +13,12 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script type="text/javascript" src="js/gallery_generator.js"></script>
+
 
 
     <script type = "text/javascript">
@@ -158,24 +164,28 @@
         </div>
 
         <div id = "coke" class = "container-fluid main_contents" style ="display:none;">
-            <div class="col-sm-9 "> 
-                <p>Coke.html here</p>
-                <h4 class="card-title">Coca Cola Bottle X3D Model</h4>
+            <div class="row">
+                <div class="col-sm-9"> 
+                    <p>Coke.html here</p>
+                    <h4 class="card-title">Coca Cola Bottle X3D Model!</h4>
 
-                <x3d width='500px' height='400px'> 
-                    <scene>
-                        <inline url="models/Can.x3d" render="true" visible="true" load="true"></inline> 
-                    </scene> 
-                </x3d>  
+                    <x3d width='500px' height='400px'> 
+                        <scene>
+                            <inline url="models/Can.x3d" render="true" visible="true" load="true"></inline> 
+                        </scene> 
+                    </x3d>  
 
-                <p class="card-text">This X3D model!</p>
-            </div>
+                    <p class="card-text">This X3D model</p>
+                </div>
 
-            <div class="col-sm-3 "> 
-                <p>Gallery Here</p>
-                <h4 class="card-title">Coca Cola Bottle X3D Model</h4>
-                <div id = "gallery_coke"></div>
+                <div class="col-sm-3"> 
+                    <p>Gallery Here</p>
+                    <h4 class="card-title">Coca Cola Bottle X3D Model</h4>
+                    <div id = "gallery_coke"></div>
 
+                    //HERE
+
+                </div>
             </div>
         </div>
 
@@ -236,8 +246,6 @@
 
     <script src="https://kit.fontawesome.com/29c791c5d1.js" crossorigin="anonymous"></script>
 
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+
   </body>
 </html>

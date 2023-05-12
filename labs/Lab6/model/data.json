@@ -1,0 +1,59 @@
+{
+    "pageTextData": [
+        {
+        "title": "THIS IS A TEST222",
+        "subTitle": "There are lots of drinks which are braded by us!",
+        "description": "We are the leading manufacturer, marketer of over 400 brands. This website will show you a few of them!"
+        },
+        {
+        "title": "Coca Cola",
+        "subTitle":"New York Harbour, 1886",
+        "description": "It was 1886, John Pemberton, an Atlanta pharmacist, was inspired by sim when it was done, the mixture was combined with carbonated water and sampled by custome",
+        "image": "assets/images/Coke.png"
+
+        },
+        {
+        "title": "Sprite",
+        "subTitle": "West Germany, 1959",
+        "description": "First introduced in 1961, crisp, refreshing, clean-tasting Sprite is no different countries. Sprite Zero, part of our no sugar Zero range, offers the delicious",
+        "image": "assets/images/Sprite.png"
+        },
+        {
+        "title": "Lilt",
+        "subTitle": "UK, 1975",
+        "description": "Lilt, is a pineapple and grapefruit-flavored carbonated soft drink primarily sold in the UK and Ireland, known for its distinctive tropical taste and colorful packaging.",
+        "image": "assets/images/Lilt.png"
+        },
+        {
+        "title": "Fanta",
+        "subTitle": "Italy, 1955",
+        "description": "Fanta is a popular carbonated soft drink sold globally by The Coca-Cola Company that comes in a variety of fruit flavors, including orange, grape, strawberry, pineapple, and more.",
+        "image": "assets/images/Fanta.png"
+        },
+        {
+        "x3dModelTitle": "Can X3D Model",
+        "subTitle": "CocaCola Can",
+        "description": "The Coca-Cola can has a long and fascinating history. The first Coca-Cola cans were introduced in 1955, replacing the original glass bottles that the company had been using since its inception in 1886. The cans were made of steel and were designed to be lightweight, durable, and easy to transport. In 1960, the Coca-Cola Company began using aluminum cans for its beverages. The new cans were more lightweight and easier to open than the previous steel cans. The company also introduced a new design featuring the iconic Coca-Cola logo and a red and white color scheme, which remains the brand's signature look to this day."
+        },
+        {
+        "x3dModelTitle": "Bottle X3D Model",
+        "subTitle": "CocaCola Bottle",
+        "description": "Over the years, the Coca-Cola bottle has undergone some design changes, with different sizes, shapes, and materials being used to suit changing consumer preferences and manufacturing technologies. However, the classic contour bottle remains a beloved and iconic symbol of the Coca-Cola brand, and it is still widely recognized and revered around the world."
+        },
+        {
+        "x3dModelTitle": "Cup X3D Model",
+        "subTitle": "CocaCola Cup",
+        "description": "The Coca-Cola cups have also played a significant role in the brand's history. The first Coca-Cola cups were made of glass and were used primarily in soda fountains and restaurants. These cups featured the iconic Coca-Cola logo and were often used as a promotional item, with different designs and styles being created to commemorate special events or holidays."
+        },
+        {
+        "x3dModelTitle": "Glass X3D Model",
+        "subTitle": "CocaCola Glass",
+        "description": "Coca-Cola has a variety of glass cups that are used for serving its soft drinks in restaurants, bars, and other foodservice settings. These cups come in various shapes and sizes, but they typically feature the Coca-Cola logo and other branding elements, such as the signature red and white color scheme."
+        },
+        {
+        "aboutTitle": "About CocaCola",
+        "aboutDescription": "Coca-Cola is one of the most recognizable and widely consumed beverage brands in the world. The company was founded in 1886 in Atlanta, Georgia, by pharmacist John Pemberton, who created a syrup that he mixed with carbonated water and sold as a brain tonic and temperance drink. Today, Coca-Cola is a multinational corporation with operations in more than 200 countries and territories, offering a wide range of products, including Coke, Sprite, Fanta, and Dasani. The brand has become an iconic symbol of American culture and has been featured in countless advertisements, movies, and TV shows. Despite controversies over its health effects and environmental impact, Coca-Cola remains a beloved and influential brand with a loyal following around the world. Coca-Cola was created in 1886 by John Pemberton, a pharmacist in Atlanta, Georgia, USA. The original recipe contained cocaine, which was a legal ingredient at the time. The Coca-Cola logo is one of the most recognizable logos in the world. It was created by Pemberton's bookkeeper, Frank Mason Robinson, who also came up with the name Coca-Cola.",
+        "imageAbout": "assets/images/CokeAbout.png" 
+        }
+    ]
+}
